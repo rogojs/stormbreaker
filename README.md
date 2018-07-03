@@ -20,7 +20,6 @@ Be sure you are running an instance of [thor](https://github.com/vechain/thor).
 
 - transaction
     - send ( two-party )
-    - send ( multi-party )
 
 #### Examples
 
