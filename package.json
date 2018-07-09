@@ -1,10 +1,11 @@
 {
   "name": "example-contract",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --allowSyntheticDefaultImports true ./src/index.ts",
+    "clean": "rm -rf ./dist"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,7 @@
     "axios": "^0.18.0",
     "commander": "^2.16.0",
     "solc": "^0.4.24",
-    "thorify": "^0.3.0",
-    "web3": "^1.0.0-beta.26"
-  }
+    "thorify": "^0.3.1",
+    "web3": "^1.0.0-beta.34"
+  },
 }
